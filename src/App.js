@@ -86,7 +86,7 @@ class App extends Component {
   render() {
     let {titleCon} = this.state
     return (
-      <section className="rows">
+      <section className="rows"> 
         <section className="con_wrapper">
           <section onClick={this.beforeItem.bind(this)} className="left_con">{"<"}</section>
           <section className="item_con">

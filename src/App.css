@@ -1,0 +1,125 @@
+.title {
+  position: relative;
+  color: #222222;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.rate {
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.day_price {
+  position: relative;
+  font-size: 14px;
+}
+
+.con_wrapper{
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0;
+  text-align: center;
+}
+
+.con_wrapper  .left_con{
+  position: relative;
+  font-size: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.con_wrapper  .right_con{
+  position: relative;
+  font-size: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.con_wrapper .item_con{
+  position: relative;
+   flex: auto;
+  height: 400px;
+}
+
+.item_con > div{
+  background:gray;
+  width: 400px;
+  height: 100%;
+  transition: all 1s ease;
+  font-size: 40px;
+  color: white;
+}
+
+.item_con .item_0{
+  position: absolute;
+  transform: scale(0);
+  top: 0;
+  left:-60px;
+}
+
+
+.item_con .item_1{
+  position: absolute;
+  transform: scale(0.6);
+  top: 0;
+  left:-60px;
+  background: rgb(226, 226, 216);
+  z-index: 2;
+}
+.item_con .item_2{
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  transform: translateX(-50%) scale(0.8);
+  background: green;
+  z-index: 3;
+}
+
+.item_con .item_3{
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%) scale(1);
+  background: blue;
+  z-index: 4;
+}
+.item_con .item_4{
+  position: absolute;
+  top: 10px;
+  left: 70%;
+  transform: translateX(-50%) scale(0.8);
+  background: red;
+  z-index: 3;
+}
+
+.item_con .item_5{
+  position: absolute;
+  top: 10px;
+  right:-60px;
+  transform:scale(0.6);
+  background: gray;
+  z-index:2;
+}
+
+.item_con .item_6{
+  position: absolute;
+  transform: scale(0);
+  right:-60px;
+  top: 10px;
+  background: gray;
+  z-index: 0;
+}
